@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Nanum Gothic", sans-serif;
+      }
+      body {
+        background-image: url(bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: center; */
+      }
+    </style>
+  </head>
+  <body class="text-white">
+    
+    <!-- Nar bar  -->
+    
+    <header b-aw6rdi7w6r>
+    <nav b-aw6rdi7w6r class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary border-bottom box-shadow mb-3">
+        <div b-aw6rdi7w6r class="container-fluid">
+
+
+            
+            <a class="navbar-brand" href="/">
+                HRMS_Web
+             </a>
+            <button b-aw6rdi7w6r class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span b-aw6rdi7w6r class="navbar-toggler-icon"></span>
+            </button>
+            <div b-aw6rdi7w6r class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul b-aw6rdi7w6r class="navbar-nav flex-grow-1">
+                    <li b-aw6rdi7w6r class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                </ul>
+                
+
+<ul class="navbar-nav">
+<li class="nav-item">
+    <a class="nav-link" id="login" href="/Identity/Account/Login">
+            <i class="bi bi-person-circle"></i> Login
+    </a>
+</li>
+</ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+        <!-- Login Form  -->
+
+
+    <div class="h-screen flex items-center flex justify-center ">
+      <div
+        class="bg-black bg-opacity-20 backdrop-blur-lg px-10 py-12 rounded-md border"
+      >
+        <h2 class="text-3xl text-center mb-7 font-semibold">Login</h2>
+        <div class="flex items-center border-b mb-3">
+          <input
+            type="email"
+            placeholder="Email"
+            class="py-2 outline-none bg-inherit w-64" 
+          />
+          <i class="ri-mail-line text-gray-500"></i>
+        </div>
+        <div class="flex items-center border-b mb-3">
+          <input
+            type="password"
+            placeholder="Password"
+            class="py-2 outline-none bg-inherit w-64"
+          />
+          <i class="ri-lock-line text-gray-400"></i>
+        </div>
+        <div class="flex items-right justify-between text-s mb-4">
+          <div class="flex items-center gap-1">
+            <input type="checkbox" />
+            <p>Remember password</p>
+          </div>
+          <a href="#" class="text-orange-200"> Forget password?</a>
+        </div>
+        <div
+          class="bg-white hover:bg-gray-400 rounded-md text-black py-2 text-center mb-5 font-semibold"
+        >
+          Login
+        </div>
+        <div class="text-sm text-center">
+          Don't have an account? <a href="#" class="text-orange-200">Register</a>
+        </div>
+
+        <div class="text-sm text-center">
+             <a href="#" class="text-orange-200">Resend email confirmation</a>
+          </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <footer b-aw6rdi7w6r class="border-top footer bg-secondary text-muted">
+        <div b-aw6rdi7w6r class="text-center text-light">
+            Made with <i b-aw6rdi7w6r class="bi bi-heart-fill"></i> by Outstanders
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=zzhOXVZgHfWVb8WPn1PbISpyc7aQVmnTnaLAOEgxvSU"></script>
+    
+    
+    <script src="/Identity/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+
+
+    
+<script src="/_framework/aspnetcore-browser-refresh.js"></script>
+
+
+  </body>
+</html>
